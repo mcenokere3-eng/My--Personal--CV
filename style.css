@@ -1,0 +1,155 @@
+body{
+font-family :Arial, sans-serif;
+margin:0;
+background-color :#f2f5f8;
+color :#222;
+}
+/*Navigation*/
+nav{
+    background-colour:#12355b;
+    padding:18px;
+    text-align:center;
+    position:sticky;
+    top:0;z-index:1000;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin:0 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: lightblue;
+}
+/*Main section*/
+section {
+    background-color:white;
+    width:85%;
+    max-width:900px;
+    margin:30px auto;
+    padding:30px;
+    border-radius:10px;
+}
+/*----Headingsh1----*/
+h1{
+    color:#12355b;
+    text-align:center;
+}
+h2{
+    color:#12355b;
+    border-bottom:2px solid #12355b;
+padding-bottom: 8px;
+}
+/*Home photo*/
+#home
+ img{
+width:200px;
+height:200px;
+objective-fit:cover;
+display:block;
+margin:20px 0;
+border-radius:50%;
+}
+/*Horizontal lines*/
+hr{
+    border:0;
+    border-top:2px solid #12355b;
+    margin: 25px 0;
+}
+/*Personal Experience table*/
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+table,th,td{
+    border:1px solid green;
+}
+th{
+    background-color:lightblue;
+    padding:10px;
+}
+td{
+    padding:10px
+}
+/*Email link*/
+#contact a{
+    color:#12355b;
+    font-weight:bold;
+}
+/*Hobbies*/
+/* Hobbies section */
+
+#hobbies {
+    background-color: lightblue;
+    color: #12355b;
+    padding: 30px;
+}
+
+#hobbies li {
+    margin: 12px;
+}
+/*Footer*/
+footer{
+    background-color:#12355b;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+/*Mobile view*/
+@media (max-width:600px){
+    nav a{
+        display:block;
+        margin:10px;
+    }
+    section{
+        width:80%;
+        padding:20px;
+    }
+    table:{
+        font-size:14px;
+    }
+    #home img{
+        width:180px;
+        height:180px;
+    }
+    /* Contact section */
+
+#contact {
+    background-color: #dceeff;
+    color: #12355b;
+    padding: 30px;
+}
+
+#contact form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact .copy-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#contact button {
+    background-color: green;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+}
